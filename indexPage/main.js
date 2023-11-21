@@ -9,7 +9,7 @@ const dataToSend = 'Olá, servidor!';
 
 // Configuração da requisição
 const requestOptions = {
-    method: 'CAV', // ou 'GET' dependendo do método que você está usando no servidor
+    method: 'POST', // ou 'GET' dependendo do método que você está usando no servidor
     headers: {
         'Content-Type': 'text/plain', // ou o tipo de conteúdo apropriado
     },
