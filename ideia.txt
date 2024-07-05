@@ -1,3 +1,6 @@
+sudo -u postgres psql postgres
+javac -d . @sources.txt; java -cp .:lib/* src.MainAPI 
+
 Banco de dados com: 
 
 id do produto;

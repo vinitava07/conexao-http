@@ -9,11 +9,11 @@ const dataToSend = 'Olá, servidor!';
 
 // Configuração da requisição
 const requestOptions = {
-    method: 'POST', // ou 'GET' dependendo do método que você está usando no servidor
+    method: 'GET', // ou 'GET' dependendo do método que você está usando no servidor
     headers: {
         'Content-Type': 'text/plain', // ou o tipo de conteúdo apropriado
     },
-    body: dataToSend
+    // body: dataToSend
 };
 function request() {
 

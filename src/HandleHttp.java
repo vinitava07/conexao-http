@@ -43,7 +43,7 @@ public class HandleHttp implements HttpHandler {
 
         if ("GET".equals(exchange.getRequestMethod())) {
 
-            String resposta = "RESPONDIDO";
+            String resposta = "FAZ O L";
             exchange.sendResponseHeaders(200, resposta.length());
             OutputStream os = exchange.getResponseBody();
             os.write(resposta.getBytes());
@@ -51,7 +51,7 @@ public class HandleHttp implements HttpHandler {
         } else if ("POST".equals(exchange.getRequestMethod())) {
 
             String request = inputStreamToString(exchange.getRequestBody());
-            String postString = "POST RECEBIDO";
+            String postString = "Bom dia presidente lula";
             exchange.sendResponseHeaders(200, postString.getBytes().length);
                         
             OutputStream os = exchange.getResponseBody();
